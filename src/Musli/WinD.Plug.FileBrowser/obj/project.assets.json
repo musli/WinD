@@ -1,0 +1,459 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "HandyControl/3.0.0-rc.2": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/HandyControl.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/HandyControl.dll": {}
+        },
+        "resource": {
+          "lib/net5.0/en/HandyControl.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net5.0/fa/HandyControl.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net5.0/fr/HandyControl.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0/ko-KR/HandyControl.resources.dll": {
+            "locale": "ko-KR"
+          },
+          "lib/net5.0/pt-BR/HandyControl.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0/ru/HandyControl.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0/tr/HandyControl.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      },
+      "System.Composition/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Composition.AttributedModel": "5.0.0",
+          "System.Composition.Convention": "5.0.0",
+          "System.Composition.Hosting": "5.0.0",
+          "System.Composition.Runtime": "5.0.0",
+          "System.Composition.TypedParts": "5.0.0"
+        }
+      },
+      "System.Composition.AttributedModel/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Composition.AttributedModel.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.AttributedModel.dll": {}
+        }
+      },
+      "System.Composition.Convention/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Composition.AttributedModel": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Composition.Convention.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Convention.dll": {}
+        }
+      },
+      "System.Composition.Hosting/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Composition.Runtime": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Composition.Hosting.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Hosting.dll": {}
+        }
+      },
+      "System.Composition.Runtime/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/System.Composition.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.Runtime.dll": {}
+        }
+      },
+      "System.Composition.TypedParts/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Composition.AttributedModel": "5.0.0",
+          "System.Composition.Hosting": "5.0.0",
+          "System.Composition.Runtime": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Composition.TypedParts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Composition.TypedParts.dll": {}
+        }
+      },
+      "Win32/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Win32.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Win32.dll": {}
+        }
+      },
+      "WinD.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Win32": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinD.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinD.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "WinD.Extended/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "System.Composition": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WinD.Extended.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WinD.Extended.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "HandyControl/3.0.0-rc.2": {
+      "sha512": "XdIgIG194ekUapq1pII9j7Vwsckbj1h4OoY2uTjec2AJ93DpqDBOj1OMZioppc/TxG0+4MvsJe+qOFOjfDEfoQ==",
+      "type": "package",
+      "path": "handycontrol/3.0.0-rc.2",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "handycontrol.3.0.0-rc.2.nupkg.sha512",
+        "handycontrol.nuspec",
+        "icon.png",
+        "lib/net40/HandyControl.dll",
+        "lib/net40/HandyControl.xml",
+        "lib/net40/Microsoft.Windows.Shell.dll",
+        "lib/net40/en/HandyControl.resources.dll",
+        "lib/net40/fa/HandyControl.resources.dll",
+        "lib/net40/fr/HandyControl.resources.dll",
+        "lib/net40/ko-KR/HandyControl.resources.dll",
+        "lib/net40/ru/HandyControl.resources.dll",
+        "lib/net40/tr/HandyControl.resources.dll",
+        "lib/net45/HandyControl.dll",
+        "lib/net45/HandyControl.xml",
+        "lib/net45/en/HandyControl.resources.dll",
+        "lib/net45/fa/HandyControl.resources.dll",
+        "lib/net45/fr/HandyControl.resources.dll",
+        "lib/net45/ko-KR/HandyControl.resources.dll",
+        "lib/net45/ru/HandyControl.resources.dll",
+        "lib/net45/tr/HandyControl.resources.dll",
+        "lib/net462/HandyControl.dll",
+        "lib/net462/HandyControl.xml",
+        "lib/net462/en/HandyControl.resources.dll",
+        "lib/net462/fa/HandyControl.resources.dll",
+        "lib/net462/fr/HandyControl.resources.dll",
+        "lib/net462/ko-KR/HandyControl.resources.dll",
+        "lib/net462/ru/HandyControl.resources.dll",
+        "lib/net462/tr/HandyControl.resources.dll",
+        "lib/net47/HandyControl.dll",
+        "lib/net47/HandyControl.xml",
+        "lib/net47/en/HandyControl.resources.dll",
+        "lib/net47/fa/HandyControl.resources.dll",
+        "lib/net47/fr/HandyControl.resources.dll",
+        "lib/net47/ko-KR/HandyControl.resources.dll",
+        "lib/net47/ru/HandyControl.resources.dll",
+        "lib/net47/tr/HandyControl.resources.dll",
+        "lib/net48/HandyControl.dll",
+        "lib/net48/HandyControl.xml",
+        "lib/net48/en/HandyControl.resources.dll",
+        "lib/net48/fa/HandyControl.resources.dll",
+        "lib/net48/fr/HandyControl.resources.dll",
+        "lib/net48/ko-KR/HandyControl.resources.dll",
+        "lib/net48/ru/HandyControl.resources.dll",
+        "lib/net48/tr/HandyControl.resources.dll",
+        "lib/net5.0/HandyControl.deps.json",
+        "lib/net5.0/HandyControl.dll",
+        "lib/net5.0/HandyControl.xml",
+        "lib/net5.0/en/HandyControl.resources.dll",
+        "lib/net5.0/fa/HandyControl.resources.dll",
+        "lib/net5.0/fr/HandyControl.resources.dll",
+        "lib/net5.0/ko-KR/HandyControl.resources.dll",
+        "lib/net5.0/pt-BR/HandyControl.resources.dll",
+        "lib/net5.0/ru/HandyControl.resources.dll",
+        "lib/net5.0/tr/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/HandyControl.deps.json",
+        "lib/netcoreapp3.0/HandyControl.dll",
+        "lib/netcoreapp3.0/HandyControl.xml",
+        "lib/netcoreapp3.0/en/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/fa/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/fr/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/ko-KR/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/ru/HandyControl.resources.dll",
+        "lib/netcoreapp3.0/tr/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/HandyControl.deps.json",
+        "lib/netcoreapp3.1/HandyControl.dll",
+        "lib/netcoreapp3.1/HandyControl.xml",
+        "lib/netcoreapp3.1/en/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/fa/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/fr/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/ko-KR/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/ru/HandyControl.resources.dll",
+        "lib/netcoreapp3.1/tr/HandyControl.resources.dll",
+        "tools/VisualStudioToolsManifest.xml"
+      ]
+    },
+    "System.Composition/5.0.0": {
+      "sha512": "fRwrKMeGwG2qV1y2jjj6aqS7v5O4p95BbteD1+mWQYuXGjwhh+nsNU3tGUSXk+eF0yA7sXQ3gzkBLwIQlLtP9A==",
+      "type": "package",
+      "path": "system.composition/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "system.composition.5.0.0.nupkg.sha512",
+        "system.composition.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Composition.AttributedModel/5.0.0": {
+      "sha512": "anAjtoOLdLbbxCPMgqozuQ3JVxq7s1b8Q0+jdoSbEVpWXcxY5rfJ7Ziy2Q4O2gl79eUWi94+1zspbBkXAQr2UA==",
+      "type": "package",
+      "path": "system.composition.attributedmodel/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.AttributedModel.dll",
+        "lib/net461/System.Composition.AttributedModel.xml",
+        "lib/netstandard1.0/System.Composition.AttributedModel.dll",
+        "lib/netstandard2.0/System.Composition.AttributedModel.dll",
+        "lib/netstandard2.0/System.Composition.AttributedModel.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Composition.AttributedModel.dll",
+        "system.composition.attributedmodel.5.0.0.nupkg.sha512",
+        "system.composition.attributedmodel.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Composition.Convention/5.0.0": {
+      "sha512": "sp2J6P4FcohCHa5zn2r7S5i1nqhRBjmXGZcS45BJsZKhSSde3qQQhG7ImCplKhrgYjLXqla3QOGQ88fzRenzlg==",
+      "type": "package",
+      "path": "system.composition.convention/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Convention.dll",
+        "lib/net461/System.Composition.Convention.xml",
+        "lib/netstandard1.0/System.Composition.Convention.dll",
+        "lib/netstandard2.0/System.Composition.Convention.dll",
+        "lib/netstandard2.0/System.Composition.Convention.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Composition.Convention.dll",
+        "system.composition.convention.5.0.0.nupkg.sha512",
+        "system.composition.convention.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Composition.Hosting/5.0.0": {
+      "sha512": "aSz04ywx0IwzmwbyXuNVKxmSVF0Uk+lgVIqurTY2XYUZ05rc1HTSdyfoYN+lYMseL0er8tA3ZJxWmWMYJc3a7w==",
+      "type": "package",
+      "path": "system.composition.hosting/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Hosting.dll",
+        "lib/net461/System.Composition.Hosting.xml",
+        "lib/netstandard1.0/System.Composition.Hosting.dll",
+        "lib/netstandard2.0/System.Composition.Hosting.dll",
+        "lib/netstandard2.0/System.Composition.Hosting.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Composition.Hosting.dll",
+        "system.composition.hosting.5.0.0.nupkg.sha512",
+        "system.composition.hosting.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Composition.Runtime/5.0.0": {
+      "sha512": "CbYFiM4IuBD3WEsAZG0p8UnYs9QFyBTD77gQ0NYAQ6iUc9/6Btjk/Owm5mBxxLdazR+1+0pX5NtIbBnkGk4Lyw==",
+      "type": "package",
+      "path": "system.composition.runtime/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.Runtime.dll",
+        "lib/net461/System.Composition.Runtime.xml",
+        "lib/netstandard1.0/System.Composition.Runtime.dll",
+        "lib/netstandard2.0/System.Composition.Runtime.dll",
+        "lib/netstandard2.0/System.Composition.Runtime.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Composition.Runtime.dll",
+        "system.composition.runtime.5.0.0.nupkg.sha512",
+        "system.composition.runtime.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Composition.TypedParts/5.0.0": {
+      "sha512": "omBYeryiIj2ZR/EikAcK1zdf8QP15uz4uQIYkvEiYneonw0eu8HqUFch4LVmiW2xkJgabdWFmAWWUWxlwUfHMg==",
+      "type": "package",
+      "path": "system.composition.typedparts/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Composition.TypedParts.dll",
+        "lib/net461/System.Composition.TypedParts.xml",
+        "lib/netstandard1.0/System.Composition.TypedParts.dll",
+        "lib/netstandard2.0/System.Composition.TypedParts.dll",
+        "lib/netstandard2.0/System.Composition.TypedParts.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Composition.TypedParts.dll",
+        "system.composition.typedparts.5.0.0.nupkg.sha512",
+        "system.composition.typedparts.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Win32/1.0.0": {
+      "type": "project",
+      "path": "../Win32/Win32.csproj",
+      "msbuildProject": "../Win32/Win32.csproj"
+    },
+    "WinD.Common/1.0.0": {
+      "type": "project",
+      "path": "../WinD.Common/WinD.Common.csproj",
+      "msbuildProject": "../WinD.Common/WinD.Common.csproj"
+    },
+    "WinD.Extended/1.0.0": {
+      "type": "project",
+      "path": "../WinD.Extended/WinD.Extended.csproj",
+      "msbuildProject": "../WinD.Extended/WinD.Extended.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "HandyControl >= 3.0.0-rc.2",
+      "Win32 >= 1.0.0",
+      "WinD.Common >= 1.0.0",
+      "WinD.Extended >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\surface\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Plug.FileBrowser\\WinD.Plug.FileBrowser.csproj",
+      "projectName": "WinD.Plug.FileBrowser",
+      "projectPath": "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Plug.FileBrowser\\WinD.Plug.FileBrowser.csproj",
+      "packagesPath": "C:\\Users\\surface\\.nuget\\packages\\",
+      "outputPath": "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Plug.FileBrowser\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\surface\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://192.168.100.232:8091/nuget": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "D:\\Drive\\Works\\Musli\\src\\Musli\\Win32\\Win32.csproj": {
+              "projectPath": "D:\\Drive\\Works\\Musli\\src\\Musli\\Win32\\Win32.csproj"
+            },
+            "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Common\\WinD.Common.csproj": {
+              "projectPath": "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Common\\WinD.Common.csproj"
+            },
+            "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Extended\\WinD.Extended.csproj": {
+              "projectPath": "D:\\Drive\\Works\\Musli\\src\\Musli\\WinD.Extended\\WinD.Extended.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "dependencies": {
+          "HandyControl": {
+            "target": "Package",
+            "version": "[3.0.0-rc.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

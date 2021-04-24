@@ -1,0 +1,574 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Client\\Musli.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\Ioctemp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\Ioctemp.csproj",
+        "projectName": "Ioctemp",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\Ioctemp.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Client\\Musli.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Client\\Musli.Client.csproj",
+        "projectName": "Musli.Client",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Client\\Musli.Client.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Client\\obj\\wappublish\\win-x64\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\Ioctemp.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Ioctemp\\Ioctemp.csproj"
+              },
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\Musli.Common.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\Musli.Common.csproj"
+              },
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\Musli.Controls.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\Musli.Controls.csproj"
+              },
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\Musli.Core.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\Musli.Core.csproj"
+              },
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj"
+              },
+              "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\Win32.csproj": {
+                "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\Win32.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac.Extras.CommonServiceLocator": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "HandyControl": {
+              "target": "Package",
+              "version": "[3.0.0-rc.2, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.0.0-preview3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.ComponentModel.Composition": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0-rc.2.20475.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\Musli.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\Musli.Common.csproj",
+        "projectName": "Musli.Common",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\Musli.Common.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\Musli.Controls.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\Musli.Controls.csproj",
+        "projectName": "Musli.Controls",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\Musli.Controls.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\Musli.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\Musli.Core.csproj",
+        "projectName": "Musli.Core",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\Musli.Core.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Toolkit.Mvvm": {
+              "target": "Package",
+              "version": "[7.0.0-preview3, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj",
+        "projectName": "Musli.Extended",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\Musli.Extended.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Musli.Extended\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\Win32.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\Win32.csproj",
+        "projectName": "Win32",
+        "projectPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\Win32.csproj",
+        "packagesPath": "C:\\Users\\musli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musli\\OneDrive\\Works\\GiteeMusli\\src\\Musli\\Win32\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

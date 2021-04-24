@@ -1,0 +1,82 @@
+﻿<Page x:Class="WinD.Plug.FileBrowser.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WinD.Plug.FileBrowser"
+      xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+      xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+      xmlns:wpf="clr-namespace:System.Windows.Interop;assembly=PresentationCore"
+      xmlns:hc="https://handyorg.github.io/handycontrol"
+      mc:Ignorable="d"
+      d:DesignHeight="450" d:DesignWidth="800"  UseLayoutRounding="True"
+      Title="BrowserPage">
+    <Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml"/>
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel HorizontalAlignment="Right" Panel.ZIndex="1">
+            <Button Height="30" Click="Button_Click" Content="+" Panel.ZIndex="1"/>
+            <Button Height="30" Click="btnRemove_Click" Content="-" Panel.ZIndex="1"/>
+            <Button Height="30" Click="btnJumpC_Click" Content="C:" />
+            <Button Height="30" Click="btnHide_Click" Content="Hide" />
+            
+            <TextBlock Grid.Row="0" Text="行数：" Style="{StaticResource TextBlockDefaultThiLight}"></TextBlock>
+            <Slider VerticalAlignment="Center" Panel.ZIndex="1" x:Name="sliRows" Width="100" Value="1" hc:TipElement.Visibility="Visible" hc:TipElement.Placement="Bottom" hc:TipElement.StringFormat="#0" IsSnapToTickEnabled="True" TickFrequency="1" Minimum="1" Maximum="5" TickPlacement="BottomRight"/>
+            <TextBlock Grid.Row="0" Grid.Column="3" Text="列数：" Style="{StaticResource TextBlockDefaultThiLight}"></TextBlock>
+            <Slider VerticalAlignment="Center" Panel.ZIndex="1" x:Name="sliColumns" Width="100" Value="1" hc:TipElement.Visibility="Visible" hc:TipElement.Placement="Bottom" hc:TipElement.StringFormat="#0" IsSnapToTickEnabled="True" TickFrequency="1" Minimum="1" Maximum="5" TickPlacement="BottomRight"/>
+        </WrapPanel>
+        <ItemsControl Grid.Row="1" ItemsSource="{Binding Panels}" >
+            <ItemsControl.Resources>
+                <Style TargetType="RadioButton">
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="RadioButton">
+                                <Border x:Name="Bor" Background="#8CCC" BorderBrush="#8CCC" BorderThickness="1"></Border>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter TargetName="Bor" Property="Background" Value="{DynamicResource PrimaryBrush}"/>
+                                        <Setter TargetName="Bor" Property="BorderBrush" Value="{DynamicResource PrimaryBrush}"/>
+                                        <Setter TargetName="Bor" Property="Effect" Value="{StaticResource EffectShadow2}"/>
+                                    </Trigger>
+                                    <Trigger Property="IsChecked" Value="False">
+                                        <Setter TargetName="Bor" Property="Background" Value="{DynamicResource SecondaryTextBrush}"></Setter>
+                                        <Setter TargetName="Bor" Property="BorderBrush" Value="{DynamicResource SecondaryTextBrush}"></Setter>
+                                        <Setter TargetName="Bor" Property="Effect" Value="{x:Null}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ItemsControl.Resources>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <UniformGrid Rows="{Binding ElementName= sliRows,Path=Value}" Columns="{Binding ElementName= sliColumns,Path=Value}"></UniformGrid>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5" Loaded="Grid_Loaded">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <RadioButton IsChecked="{Binding IsSelected}" GroupName="Ex" Grid.RowSpan="2"></RadioButton>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+    </Grid>
+</Page>

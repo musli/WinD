@@ -1,0 +1,7 @@
+Debug
+bin
+Release
+.msi
+packages
+.suo
+.vs

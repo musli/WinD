@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Product Codepage="936" Id="*"  Name="WinD" Language="2052" Version="1.0.0.1" Manufacturer="Github.Musli" UpgradeCode="6b89c3a7-f25c-4399-9df8-d0b40105cd82">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <!-- 打包过程中，不生成额外的cab文件，只会生成一个单独的安装程序文件 -->
+    <Media Id="1" Cabinet="Cab1.cab" EmbedCab="yes" />
+    <!--<MediaTemplate />-->
+    <!--安装清单-->
+    <Feature Id="ProductFeature" Title="SetupWixTest" Level="1">
+      <!--Feature安装清单-->
+      <ComponentGroupRef Id="ProductComponents" />
+      <!--<ComponentRef Id="IconsFiles"/>-->
+      <ComponentRef Id="LibsAndFiles"/>
+      <ComponentRef Id="ApplicationShortcut"/>
+      <ComponentRef Id="DesktopFolderShortcut"/>
+    </Feature>
+    <!--<WixVariable Id="WixUILicenseRtf" Value="license.rtf"/>-->
+    <UI>
+      <!--安装风格-->
+      <Property Id="WIXUI_INSTALLDIR" Value="INSTALLDIR"/>
+      <UIRef Id="WixUI_InstallDir"/>
+    </UI>
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder" Name="PFiles">
+        <Directory Id="INSTALLDIR" Name="WinD">
+          <!--用户选择安装位置-->
+          <Directory Id="Plug" Name="Plug"></Directory>
+        </Directory>
+      </Directory>
+
+      <Directory Id="ProgramMenuFolder">
+        <!--在windows开始菜单中显示-->
+        <Directory Id="ApplicationProgramsFolder" Name="WinD"/>
+      </Directory>
+      <Directory Id="DesktopFolder" Name="Desktop"/>
+    </Directory>
+
+  </Fragment>
+
+  <Fragment>
+    <!--定义需要添加的文件的位置-->
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLDIR">
+      <Component Id="ProductComponent">
+        <File Id="WinD.dll" Source="$(var.WinD.TargetPath)"/>
+      </Component>
+      <!--<Component Id="LibOne">
+        <File Source="$(var.OrderFoodLib.TargetPath)"/>
+      </Component>-->
+    </ComponentGroup>
+
+    <!--为根目录添加文件-->
+    <DirectoryRef Id="INSTALLDIR">
+      <Component Id="LibsAndFiles" Guid="ae8c83a1-7615-4439-bf90-4c39db24986f">
+        <File Id="data.json" Source="$(var.WinD.TargetDir)data.json"/>
+        <File Id="HandyControl.dll" Source="$(var.WinD.TargetDir)HandyControl.dll"/>
+        <File Id="Microsoft.Extensions.DependencyInjection.Abstractions.dll" Source="$(var.WinD.TargetDir)Microsoft.Extensions.DependencyInjection.Abstractions.dll"/>
+        <File Id="Microsoft.Extensions.DependencyInjection.dll" Source="$(var.WinD.TargetDir)Microsoft.Extensions.DependencyInjection.dll"/>
+        <File Id="Microsoft.Toolkit.Mvvm.dll" Source="$(var.WinD.TargetDir)Microsoft.Toolkit.Mvvm.dll"/>
+        <File Id="Newtonsoft.Json.dll" Source="$(var.WinD.TargetDir)Newtonsoft.Json.dll"/>
+        <File Id="System.Composition.AttributedModel.dll" Source="$(var.WinD.TargetDir)System.Composition.AttributedModel.dll"/>
+        <File Id="System.Composition.Convention.dll" Source="$(var.WinD.TargetDir)System.Composition.Convention.dll"/>
+        <File Id="System.Composition.Hosting.dll" Source="$(var.WinD.TargetDir)System.Composition.Hosting.dll"/>
+        <File Id="System.Composition.Runtime.dll" Source="$(var.WinD.TargetDir)System.Composition.Runtime.dll"/>
+        <File Id="System.Composition.TypedParts.dll" Source="$(var.WinD.TargetDir)System.Composition.TypedParts.dll"/>
+        <File Id="Win32.dll" Source="$(var.WinD.TargetDir)Win32.dll"/>
+        <File Id="WinD.Common.dll" Source="$(var.WinD.TargetDir)WinD.Common.dll"/>
+        <File Id="WinD.deps.json" Source="$(var.WinD.TargetDir)WinD.deps.json"/>
+        <File Id="WinD.exe" Source="$(var.WinD.TargetDir)WinD.exe"/>
+        <File Id="WinD.Extended.dll" Source="$(var.WinD.TargetDir)WinD.Extended.dll"/>
+        <File Id="WinD.runtimeconfig.dev.json" Source="$(var.WinD.TargetDir)WinD.runtimeconfig.dev.json"/>
+        <File Id="WinD.runtimeconfig.json" Source="$(var.WinD.TargetDir)WinD.runtimeconfig.json"/>
+        <File Id="WinDPlugMng.deps.json" Source="$(var.WinD.TargetDir)WinDPlugMng.deps.json"/>
+        <File Id="WinDPlugMng.dll" Source="$(var.WinD.TargetDir)WinDPlugMng.dll"/>
+        <File Id="WinDPlugMng.exe" Source="$(var.WinD.TargetDir)WinDPlugMng.exe"/>
+        <File Id="WinDPlugMng.runtimeconfig.dev.json" Source="$(var.WinD.TargetDir)WinDPlugMng.runtimeconfig.dev.json"/>
+        <File Id="WinDPlugMng.runtimeconfig.json" Source="$(var.WinD.TargetDir)WinDPlugMng.runtimeconfig.json"/>
+      </Component>
+    </DirectoryRef>
+
+    <!--为创建的文件夹添加文件-->
+    <!--<DirectoryRef Id="Icons">
+      <Component Id="IconsFiles" Guid="ae8c83a1-7615-4439-bf90-4c39db24987f" >
+        <File Id="default.ico" Source="$(var.WinD.TargetDir)\icon.ico"/>
+        <File Id="launched.ico" Source="$(var.WinD.TargetDir)\icon.ico"/>
+      </Component>
+    </DirectoryRef>-->
+
+    <!--开始菜单-->
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="5A254682-DD5F-453D-8333-144457282026">
+        <Shortcut Id="LunchApplicationShortcut" Name="WinD" Description="启动WinD" Target="[INSTALLDIR]WinD.exe" WorkingDirectory="INSTALLDIR">
+          <Icon Id="ico_install" SourceFile="$(var.WinD.TargetDir)Icon\icon.ico"/>
+        </Shortcut>
+        <!--<Shortcut Id="UninstallApplicationShortcut" Name="卸载软件名称" Description="卸载软件名称" Target="[SystemFolder]msiexec.exe" WorkingDirectory="SystemFolder"  Arguments="/x [ProductCode]">
+          <Icon Id="ico_uninstall" SourceFile="$(var.WinD.TargetDir)Icon\icon.ico"/>
+        </Shortcut>-->
+        <RemoveFolder Id="ApplicationProgramsFolder" On ="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\WinD" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <!--桌面快捷方式-->
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="DesktopFolderShortcut" Guid="5A254676-DD1F-453D-8333-144457282027">
+        <Shortcut Id="DesktopShortcut" Directory="DesktopFolder" Name="WinD" Target="[INSTALLDIR]WinD.exe"
+                  WorkingDirectory="INSTALLDIR" Icon="ico_install"/>
+        <RegistryValue Root="HKCU" Key="Software\Microsoft\WinD" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+
+      </Component>
+    </DirectoryRef>
+
+  </Fragment>
+</Wix>
