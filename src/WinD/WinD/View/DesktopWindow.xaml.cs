@@ -289,7 +289,7 @@ namespace WinD.View
         }
 
         /// <summary>
-        /// 强制重新布局Windows桌面
+        /// 强制重新布局Windows桌面 
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
