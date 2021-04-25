@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "C9fmM8aUMPldN70lG6hPOm+0bhc8ClsBoGJdN1qxcYuWpYPta+pPtBW7GmuzXLBbbCEzbWhvbFj1c8/hKuHe2g==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\WinD.Plug.FileBrowser\\WinD.Plug.FileBrowser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\handycontrol\\3.0.0-rc.2\\handycontrol.3.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition\\5.0.0\\system.composition.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.attributedmodel\\5.0.0\\system.composition.attributedmodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.convention\\5.0.0\\system.composition.convention.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.hosting\\5.0.0\\system.composition.hosting.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.runtime\\5.0.0\\system.composition.runtime.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.typedparts\\5.0.0\\system.composition.typedparts.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

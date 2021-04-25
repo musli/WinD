@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "NuM4lLWP1ipKaDdssya8VDJUK8ZzD1ErrbZ+EaOifFIkphcP/0w3QhoeX2rjTMtf1llEVHsjwWuRbC5TB5nPHQ==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\WinD.Plug.Baidu\\WinD.Plug.Browser.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\cef.redist.x64\\85.3.13\\cef.redist.x64.85.3.13.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\cef.redist.x86\\85.3.13\\cef.redist.x86.85.3.13.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\cefsharp.common\\85.3.130\\cefsharp.common.85.3.130.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\cefsharp.wpf\\85.3.130\\cefsharp.wpf.85.3.130.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition\\5.0.0\\system.composition.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.attributedmodel\\5.0.0\\system.composition.attributedmodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.convention\\5.0.0\\system.composition.convention.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.hosting\\5.0.0\\system.composition.hosting.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.runtime\\5.0.0\\system.composition.runtime.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.typedparts\\5.0.0\\system.composition.typedparts.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

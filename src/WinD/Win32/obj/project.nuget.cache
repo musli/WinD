@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bnFh9TZS3bAO4n87gtBFw0+ss9sTGChoKiWL3f6rbohuG4B57PmIqYX9r5442L//Rwa5wdeVzHjI/MmiiYNN9A==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\Win32\\Win32.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

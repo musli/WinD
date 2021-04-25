@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Dg0pHx7okAVqxlXjQZ8opYdY6qYhXpa2X61Gk4rH2D8nJA5iva+r3Q0s4ffGZz9bxb4YRnw+b4GTKpsEvBIkg==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\WinD\\WinD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\dirkster.avalondock\\4.50.0\\dirkster.avalondock.4.50.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\handycontrol\\3.0.0-rc.2\\handycontrol.3.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0-rc.2.20475.5\\microsoft.netcore.platforms.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.0.0-preview3\\microsoft.toolkit.mvvm.7.0.0-preview3.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0-rc.2.20475.5\\microsoft.win32.systemevents.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition\\5.0.0\\system.composition.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.attributedmodel\\5.0.0\\system.composition.attributedmodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.convention\\5.0.0\\system.composition.convention.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.hosting\\5.0.0\\system.composition.hosting.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.runtime\\5.0.0\\system.composition.runtime.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.typedparts\\5.0.0\\system.composition.typedparts.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.drawing.common\\5.0.0-rc.2.20475.5\\system.drawing.common.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

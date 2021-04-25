@@ -5,3 +5,12 @@ Release
 packages
 .suo
 .vs
+/src/WinD/WinDPlugMng/*.user
+/src/WinD/WinD.Plug.Baidu/*.user
+/src/WinD/WinD.Plug.Calculator/*.user
+/src/WinD/WinD/*.user
+/src/WinD/WinD.Plug.Test/*.user
+/src/WinD/WinD.Plug.SystemMonitoring/*.user
+/src/WinD/WinD.Plug.FileBrowser/*.user
+/src/WinD/WinD.Common/*.user
+/src/WinD/WinD.Plug.Edge/*.user

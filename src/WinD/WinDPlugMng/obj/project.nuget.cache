@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7Tz1LIHZma6FsZNXXKTZvA+xrjKcIL3UKlycGIWq2TdKuYi+RSkYii1i85eSnOhak+52ng8ODSUwe4jyEN3Iyg==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\WinDPlugMng\\WinDPlugMng.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\handycontrol\\3.0.0-rc.2\\handycontrol.3.0.0-rc.2.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\microsoft.toolkit.mvvm\\7.0.0-preview3\\microsoft.toolkit.mvvm.7.0.0-preview3.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

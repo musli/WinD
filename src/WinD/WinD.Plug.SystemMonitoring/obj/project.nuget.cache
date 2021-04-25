@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tisUjrUFngqLTEujNaY1Yr3BKd7aFs40t9F3Fs/2bCkBqLvtbtMEvCn4liSoAi6bUTnca/O28NKALauFSJa1bg==",
+  "success": true,
+  "projectFilePath": "D:\\Drive\\Works\\MusliGithub\\src\\WinD\\WinD.Plug.SystemMonitoring\\WinD.Plug.SystemMonitoring.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition\\5.0.0\\system.composition.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.attributedmodel\\5.0.0\\system.composition.attributedmodel.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.convention\\5.0.0\\system.composition.convention.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.hosting\\5.0.0\\system.composition.hosting.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.runtime\\5.0.0\\system.composition.runtime.5.0.0.nupkg.sha512",
+    "C:\\Users\\surface\\.nuget\\packages\\system.composition.typedparts\\5.0.0\\system.composition.typedparts.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Win32\Win32.csproj" />
+    <ProjectReference Include="..\WinD.Plug.Baidu\WinD.Plug.Browser.csproj" />
+    <ProjectReference Include="..\WinD.Plug.Edge\WinD.Plug.Edge.csproj" />
+    <ProjectReference Include="..\WinD.Plug.FileBrowser\WinD.Plug.FileBrowser.csproj" />
+    <ProjectReference Include="..\WinD.Plug.SystemMonitoring\WinD.Plug.SystemMonitoring.csproj" />
+  </ItemGroup>
+
+</Project>
